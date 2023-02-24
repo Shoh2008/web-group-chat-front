@@ -10,7 +10,7 @@ const api =
     }
     const { url, method, data, onSuccess } = action.payload;
     axios({
-      baseURL: "https://web-group-chat-api-production.up.railway.app/api",
+      baseURL: "https://web-group-chat-api.onrender.com/api",
       url,
       method,
       data,
